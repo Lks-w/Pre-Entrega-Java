@@ -1,6 +1,4 @@
-# TechLab
-
-Sistema de gestión de productos y pedidos desarrollado en Java puro (sin frameworks ni dependencias externas).
+### Pre entrega
 
 ## Estructura del proyecto
 
@@ -19,28 +17,6 @@ src/
         └── ProductoService.java           # CRUD de productos en memoria
 ```
 
-## Requisitos
-
-- Java 14 o superior (se usan *switch expressions*)
-
-## Compilación y ejecución
-
-Desde la raíz del proyecto:
-
-```bash
-# Compilar
-javac -d out $(find src -name "*.java")
-
-# Ejecutar
-java -cp out com.techlab.Main
-```
-
-En Windows (CMD):
-
-```cmd
-for /r src %f in (*.java) do javac -d out "%f"
-java -cp out com.techlab.Main
-```
 
 ## Funcionalidades
 
